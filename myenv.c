@@ -10,7 +10,7 @@
 #include "myputenv.h"
 #endif
 
-int main(int argc, char* argv[], char* envp[]) {
+int main(int argc, char* argv[]) {
   int i;
   // 引数の環境変数を設定
   for (i = 1; i < argc; i++) {
